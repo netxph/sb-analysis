@@ -24,5 +24,5 @@ def nir(df):
     Returns:
         The NIR value
     """
-    
-    return 10 * df[df.promotion].purchase.sum() - (0.15 * len(df[df.promotion])) - (10 * df[df.promotion == False].purchase.sum())
+
+    return 10 * df[df.promotion].purchase.sum() - (0.15 * len(df[df.promotion])) - (10 * df[df.promotion == False].purchase.sum()) 
